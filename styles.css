@@ -1,0 +1,82 @@
+
+*{
+    max-width: 300px;
+    margin: 0px;
+    padding: 8px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: #403d39;
+    color: #f5f3f4;
+
+}
+
+#container1{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    
+
+}
+
+#about{
+    font-size: 26px; 
+    order:3
+}
+h2{
+ font-size: 30px;
+}
+
+h3{
+    font-size: 26px; ;
+
+}
+
+h4{
+    font-size: 21px;
+
+} <link rel="stylesheet" href="styles.css">
+
+h5{
+ font-size: 18px;
+}
+
+p{
+ font-size: 16px;
+}
+
+#portrait{
+    display: flex;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    overflow: 0px;
+    order: 2;
+    
+}
+#title{
+    padding: 10px;
+    order:1
+}
+
+.social-media{
+    width: 20px;
+    height: auto;
+    
+}
+
+#social{
+    order:3;
+}
+#skills{
+    padding: 10px;
+    order:5; 
+}
+
+#geninfo{
+    padding: 10px;
+    order:4;
+}
+.gcontainer {
+
+    padding: 5px;}
